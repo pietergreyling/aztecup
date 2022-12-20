@@ -1,6 +1,6 @@
-## AztecUp
+# AztecUp
 
-A program that reports on the status or health of the overall Aztec network platform service endpoints.
+AztecUp is a program that reports on the status, or health, of the overall Aztec network platform service endpoints.
 
 The current proof of concept is written in the [Go programming language](https://go.dev/) on Linux (Ubuntu).
 
