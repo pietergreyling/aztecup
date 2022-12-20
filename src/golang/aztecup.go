@@ -1,4 +1,21 @@
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// Install Golang on Ubuntu:
+// $ sudo apt update
+// $ sudo apt upgrade
+// $ sudo apt search golang-go
+// $ sudo apt search gccgo-go
+// $ sudo apt install golang-go
+// $ sudo apt install gccgo-go
+// 
+// Clone this project:
+// $ git clone https://github.com/pietergreyling/aztecup.git
+// $ cd aztecup
+// $ cd src
+// $ cd golang
+// - - OR - -
+// $ cd aztecup/src/golang
+// 
+// Run and build the aztecup program:
 // $ go run aztecup.go
 // $ go build aztecup.go 
 // $ ./aztecup
@@ -38,12 +55,10 @@ func main() {
 
 	ping_aztec_apis()
 
-	fmt.Println("\n- - - - - - - - - -")
-
 }
 
 func say_hello() {
-	fmt.Println("- - - - - - - - - -")
+	fmt.Println("\n- - - - - - - - - -")
     fmt.Println("-- Hello AztecUp!")
     fmt.Println("-- User:", os.Getenv("USER"))
     fmt.Println("- - - - - - - - - -")
@@ -63,10 +78,11 @@ func ping_aztec_apis() {
 	        log.Fatal(err)
 	    }
 
-		fmt.Println("\n- - - - - - - - - -")
 		fmt.Println("\n=>", i, url)
 	    // fmt.Println("\n", err, resp)
 	    fmt.Println("\n", resp)
+	    
+		fmt.Println("\n- - - - - - - - - -")	    
 	}
 }
 
