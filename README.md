@@ -15,10 +15,7 @@ A standalone Linux executable of `aztecup` is available here:
 $ sudo apt update
 $ sudo apt upgrade
 $ sudo apt search golang-go
-$ sudo apt search gccgo-go
-$ sudo apt install golang-go
-$ sudo apt install gccgo-go
- 
+$ sudo apt install golang-go 
 ```
 
 ### How to install Go on macOS with Homebrew
@@ -28,6 +25,19 @@ $ sudo apt install gccgo-go
 Install command: 
 
 `brew install go`
+
+### Recommended: 
+#### Install [the Delve Go debugger](https://github.com/go-delve/delve) 
+
+```shell
+$ go install github.com/go-delve/delve/cmd/dlv@latest
+```
+
+#### Check your Go environment 
+
+```shell
+$ go env
+```
 
 ### The Go/Golang documentation
 
@@ -52,7 +62,6 @@ $ ./aztecup
 -- Hello AztecUp!
 -- User: [yourusername]
 -- Host: [yourcomputername]
-
 ```
 
 Expected current behaviour:

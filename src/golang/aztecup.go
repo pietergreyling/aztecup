@@ -3,9 +3,7 @@
 // $ sudo apt update
 // $ sudo apt upgrade
 // $ sudo apt search golang-go
-// $ sudo apt search gccgo-go
 // $ sudo apt install golang-go
-// $ sudo apt install gccgo-go
 //
 // Clone this project:
 // $ git clone https://github.com/pietergreyling/aztecup.git
@@ -20,7 +18,8 @@
 // $ go build aztecup.go
 // $ ./aztecup
 // -- Hello AztecUp!
-// -- user:  pieter
+// -- User: [yourusername]
+// -- Host: [yourcomputername]
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 package main
