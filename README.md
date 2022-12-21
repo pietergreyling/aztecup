@@ -50,7 +50,8 @@ $ go run aztecup.go
 $ go build aztecup.go 
 $ ./aztecup
 -- Hello AztecUp!
--- user:  pieter
+-- User: [yourusername]
+-- Host: [yourcomputername]
 
 ```
 
@@ -61,7 +62,8 @@ Expected current behaviour:
 
 - - - - - - - - - -
 -- Hello AztecUp!
--- User: pieter
+-- User: [yourusername]
+-- Host: [yourcomputername]
 - - - - - - - - - -
 
 => 0 https://api.aztec.network/aztec-connect-dev/falafel
@@ -101,10 +103,11 @@ Expected current behaviour:
 
 ## Aztec Platform Network Services Endpoints
 
-This document serves as a collection of Aztec platform network endpoints.
+This documentation section serves as a collection of Aztec platform network endpoints.
 
-A selection of these will be accessed by a script/program/service to determine, monitor, and report on the status or health of the overall Aztec network platform.  
-#### Service Naming Scheme
+A selection of these will be accessed by AztecUp to determine, monitor, and report on the status or health of the overall Aztec network platform.  
+
+### Service Naming Scheme
 
 Across all of the Aztec connect services, one can replace 
 
@@ -120,7 +123,7 @@ and
 
 to access the different networks.
 
-## Aztec Endpoints: Sites and Dashboards
+### Aztec Endpoints: Sites and Dashboards
 
 https://explorer.aztec.network/
 https://aztec-connect-testnet-explorer.aztec.network/
@@ -137,7 +140,7 @@ https://aztec-connect-testnet-faucet.aztec.network/
 https://aztec-connect-testnet-eth-host.aztec.network:8545/6rw8n2loc5bfb5x1l17w
 https://aztec-connect-dev.zk.money/
 
-## Aztec Endpoints: APIs
+### Aztec Endpoints: APIs
 
 https://api.aztec.network/aztec-connect-dev/falafel
 https://api.aztec.network/aztec-connect-dev/falafel/status
@@ -155,7 +158,7 @@ https://api.aztec.network/aztec-connect-prod/falafel/rollups?take=50&skip=100
 #### References
 https://docs.aztec.network/developers/sequencer-api
 
-## Aztec Endpoints: Testing
+###  Aztec Endpoints: Testing
 
 https://aztec-connect-testnet-explorer.aztec.network/
 https://api.aztec.network/aztec-connect-testnet/falafel/status
@@ -166,13 +169,13 @@ https://aztec-connect-dev-eth-host.aztec.network:8545/
 https://aztec-connect-dev-eth-host.aztec.network:8545/k8auhfxwp931irx704r6
 https://aztec-connect-testnet-eth-host.aztec.network:8545/6rw8n2loc5bfb5x1l17w
 
-## Aztec Endpoints: Smart Contracts
+### Aztec Endpoints: Smart Contracts
 
 https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455#code
 https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455
 https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455#analytics
 
-## Aztec Endpoints: CircleCI
+### Aztec Endpoints: CircleCI
 
 https://status.circleci.com/
 
