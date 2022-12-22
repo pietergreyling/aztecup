@@ -110,6 +110,15 @@ Expected current behaviour:
  &{503 Service Unavailable 503 HTTP/2.0 2 0 map[Content-Length:[162] Content-Type:[text/html] Date:[Tue, 20 Dec 2022 21:13:32 GMT] Server:[awselb/2.0]] {0xc00018a900} 162 [] false false map[] 0xc0001ac400 0xc00012a160}
 ```
 
+## Development Next Steps:
+
+- Continue to build with Go.
+- Destructure JSON responses (application/json) and report specific properties into a map from the Aztec apis.
+- Design output/api response formats. 
+- Build a localhost REST service/api.
+- Host a public service/api.
+- Build a web front-end.
+
 ## Aztec Platform Network Services Endpoints
 
 This documentation section serves as a collection of Aztec platform network endpoints.
