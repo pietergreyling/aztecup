@@ -4,7 +4,7 @@ AztecUp is a program that reports on the status, or health, of the overall Aztec
 
 The current proof of concept is written in the [Go programming language](https://go.dev/) on Linux (Ubuntu).
 
-A standalone Linux executable of `aztecup` is available here:
+A standalone Linux executable of `aztecup` is available [here](https://github.com/pietergreyling/aztecup/blob/main/src/golang/aztecup):
 
 [https://github.com/pietergreyling/aztecup/blob/main/src/golang/aztecup](https://github.com/pietergreyling/aztecup/blob/main/src/golang/aztecup)
 
