@@ -125,8 +125,20 @@ Expected current behaviour:
 [https://api.aztec.network/aztec-connect-prod/falafel/status](https://api.aztec.network/aztec-connect-prod/falafel/status)
 
 ```json
-{"version":"2.1.4","numTxsPerRollup":896,"numUnsettledTxs":595,"numTxsInNextRollup":295,"pendingTxCount":300,"pendingSecondClassTxCount":0,"totalTxs":656812,"totalBlocks":5867,"nextPublishNumber":116093,"proverless":false,"rollupSize":1024,"blockchainStatus": 
-...}
+{
+    "version":"2.1.4",
+    "numTxsPerRollup":896,
+    "numUnsettledTxs":595,
+    "numTxsInNextRollup":295,
+    "pendingTxCount":300,
+    "pendingSecondClassTxCount":0,
+    "totalTxs":656812,
+    "totalBlocks":5867,
+    "nextPublishNumber":116093,
+    "proverless":false,
+    "rollupSize":1024,
+    "blockchainStatus": 
+... }
 ```
 
 ## Aztec Platform Network Services Endpoints
