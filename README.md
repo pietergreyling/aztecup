@@ -115,9 +115,19 @@ Expected current behaviour:
 - Continue to build with Go.
 - Destructure JSON responses (application/json) and report specific properties into a map from the Aztec apis.
 - Design output/api response formats. 
+- Drill down into Aztec APIs.
 - Build a localhost REST service/api.
 - Host a public service/api.
 - Build a web front-end.
+
+### Drilling down: An example is lifting information from an API like this
+
+[https://api.aztec.network/aztec-connect-prod/falafel/status](https://api.aztec.network/aztec-connect-prod/falafel/status)
+
+```json
+{"version":"2.1.4","numTxsPerRollup":896,"numUnsettledTxs":595,"numTxsInNextRollup":295,"pendingTxCount":300,"pendingSecondClassTxCount":0,"totalTxs":656812,"totalBlocks":5867,"nextPublishNumber":116093,"proverless":false,"rollupSize":1024,"blockchainStatus": 
+...}
+```
 
 ## Aztec Platform Network Services Endpoints
 
