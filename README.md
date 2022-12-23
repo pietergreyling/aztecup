@@ -53,6 +53,13 @@ $ cd golang
 $ cd aztecup/src/golang
 ```
 
+### Set up the main module
+
+```shell
+$ go mod init aztecup
+
+```
+
 ### Run and build the aztecup program
 
 ```shell
