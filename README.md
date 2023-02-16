@@ -11,7 +11,7 @@ A standalone Linux executable of `aztecup` is available [here](https://github.co
 
 ### How to install Go on Linux (Ubuntu)
 
-```shell
+```shell=
 $ sudo apt update
 $ sudo apt upgrade
 $ sudo apt search golang-go
@@ -24,18 +24,20 @@ $ sudo apt install golang-go
 
 Install command: 
 
-`brew install go`
+```shell=
+$ brew install go
+```
 
 ### Recommended: 
 #### Install [the Delve Go debugger](https://github.com/go-delve/delve) 
 
-```shell
+```shell=
 $ go install github.com/go-delve/delve/cmd/dlv@latest
 ```
 
 #### Check your Go environment 
 
-```shell
+```shell=
 $ go env
 ```
 
@@ -44,7 +46,7 @@ $ go env
 [Build simple, secure, scalable systems with Go](https://go.dev/)
 
 ### Clone this project
-```shell
+```shell=
 $ git clone https://github.com/pietergreyling/aztecup.git
 $ cd aztecup
 $ cd src
@@ -55,14 +57,14 @@ $ cd aztecup/src/golang
 
 ### Set up the main module
 
-```shell
+```shell=
 $ go mod init aztecup
 
 ```
 
 ### Run and build the aztecup program
 
-```shell
+```shell=
 $ go run aztecup.go
 $ go build aztecup.go 
 $ ./aztecup
@@ -73,7 +75,7 @@ $ ./aztecup
 
 Expected current behaviour:
 
-```shell
+```shell=
 ./aztecup                                                      
 
 - - - - - - - - - -
@@ -172,64 +174,66 @@ to access the different networks.
 
 ### Aztec Endpoints: Sites and Dashboards
 
-https://explorer.aztec.network/
-https://aztec-connect-testnet-explorer.aztec.network/
-https://metrics.aztec.network/?orgId=1
-https://metrics.aztec.network/d/1HehplOVk/aztec-connect-kpis?search=open&orgId=1&refresh=10s
-https://dune.com/gm365/Aztec
-https://dune.com/gm365/aztec-v2
-https://aztec-connect-testnet.zk.money/signin
-https://dune.com/emesrever/aztec-connect-bridge-leaderboard
-https://aztec-connect-testnet-eth-host.aztec.network:8545/
-https://aztec-connect-dev-eth-host.aztec.network:8545/
-https://aztec-connect-dev-eth-host.aztec.network:8545/k8auhfxwp931irx704r6
-https://aztec-connect-testnet-faucet.aztec.network/
-https://aztec-connect-testnet-eth-host.aztec.network:8545/6rw8n2loc5bfb5x1l17w
-https://aztec-connect-dev.zk.money/
+- https://explorer.aztec.network/
+- https://aztec-connect-testnet-explorer.aztec.network/
+- https://metrics.aztec.network/?orgId=1
+- https://metrics.aztec.network/d/1HehplOVk/aztec-connect-kpis?search=open&orgId=1&refresh=10s
+- https://dune.com/gm365/Aztec
+- https://dune.com/gm365/aztec-v2
+- https://aztec-connect-testnet.zk.money/signin
+- https://dune.com/emesrever/aztec-connect-bridge-leaderboard
+- https://aztec-connect-testnet-eth-host.aztec.network:8545/
+- https://aztec-connect-dev-eth-host.aztec.network:8545/
+- https://aztec-connect-dev-eth-host.aztec.network:8545/k8auhfxwp931irx704r6
+- https://aztec-connect-testnet-faucet.aztec.network/
+- https://aztec-connect-testnet-eth-host.aztec.network:8545/6rw8n2loc5bfb5x1l17w
+- https://aztec-connect-dev.zk.money/
 
 ### Aztec Endpoints: APIs
 
-https://api.aztec.network/aztec-connect-dev/falafel
-https://api.aztec.network/aztec-connect-dev/falafel/status
-https://api.aztec.network/aztec-connect-dev/falafel/rollup/0
-https://api.aztec.network/aztec-connect-testnet/falafel
-https://api.aztec.network/aztec-connect-testnet/falafel/status
-https://api.aztec.network/aztec-connect-testnet/falafel/rollup/0
-https://api.aztec.network/aztec-connect-testnet/falafel/rollups?take=10&skip=100
-https://api.aztec.network/aztec-connect-prod/falafel
-https://api.aztec.network/aztec-connect-prod/falafel/status
-https://api.aztec.network/aztec-connect-prod/falafel/rollup/0
-https://api.aztec.network/aztec-connect-prod/falafel/rollups?take=10&skip=100
-https://api.aztec.network/aztec-connect-prod/falafel/rollups?take=50&skip=100
+- https://api.aztec.network/aztec-connect-dev/falafel
+- https://api.aztec.network/aztec-connect-dev/falafel/status
+- https://api.aztec.network/aztec-connect-dev/falafel/rollup/0
+- https://api.aztec.network/aztec-connect-testnet/falafel
+- https://api.aztec.network/aztec-connect-testnet/falafel/status
+- https://api.aztec.network/aztec-connect-testnet/falafel/rollup/0
+- https://api.aztec.network/aztec-connect-testnet/falafel/rollups?take=10&skip=100
+- https://api.aztec.network/aztec-connect-prod/falafel
+- https://api.aztec.network/aztec-connect-prod/falafel/status
+- https://api.aztec.network/aztec-connect-prod/falafel/rollup/0
+- https://api.aztec.network/aztec-connect-prod/falafel/rollups?take=10&skip=100
+- https://api.aztec.network/aztec-connect-prod/falafel/rollups?take=50&skip=100
 
 #### References
-https://docs.aztec.network/developers/sequencer-api
+
+- https://docs.aztec.network/developers/sequencer-api
 
 ###  Aztec Endpoints: Testing
 
-https://aztec-connect-testnet-explorer.aztec.network/
-https://api.aztec.network/aztec-connect-testnet/falafel/status
-https://aztec-connect-testnet-eth-host.aztec.network:8545/
-https://api.aztec.network/aztec-connect-testnet/falafel
-https://api.aztec.network/aztec-connect-prod/falafel
-https://aztec-connect-dev-eth-host.aztec.network:8545/
-https://aztec-connect-dev-eth-host.aztec.network:8545/k8auhfxwp931irx704r6
-https://aztec-connect-testnet-eth-host.aztec.network:8545/6rw8n2loc5bfb5x1l17w
+- https://aztec-connect-testnet-explorer.aztec.network/
+- https://api.aztec.network/aztec-connect-testnet/falafel/status
+- https://aztec-connect-testnet-eth-host.aztec.network:8545/
+- https://api.aztec.network/aztec-connect-testnet/falafel
+- https://api.aztec.network/aztec-connect-prod/falafel
+- https://aztec-connect-dev-eth-host.aztec.network:8545/
+- https://aztec-connect-dev-eth-host.aztec.network:8545/k8auhfxwp931irx704r6
+- https://aztec-connect-testnet-eth-host.aztec.network:8545/6rw8n2loc5bfb5x1l17w
 
 ### Aztec Endpoints: Smart Contracts
 
-https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455#code
-https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455
-https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455#analytics
+- https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455#code
+- https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455
+- https://etherscan.io/address/0xff1f2b4adb9df6fc8eafecdcbf96a2b351680455#analytics
 
 ### Aztec Endpoints: CircleCI
 
-https://status.circleci.com/
+- https://status.circleci.com/
 
 #### Pipelines
-https://app.circleci.com/launchpad/github/AztecProtocol/getting-started
-https://app.circleci.com/pipelines/github/AztecProtocol/aztec2-internal
-https://app.circleci.com/pipelines/github/AztecProtocol/aztec2-internal?branch=v2.1-testnet
-https://app.circleci.com/pipelines/github/AztecProtocol/aztec-connect-bridges
-https://app.circleci.com/pipelines/github/AztecProtocol/barretenberg
+
+- https://app.circleci.com/launchpad/github/AztecProtocol/getting-started
+- https://app.circleci.com/pipelines/github/AztecProtocol/aztec2-internal
+- https://app.circleci.com/pipelines/github/AztecProtocol/aztec2-internal?branch=v2.1-testnet
+- https://app.circleci.com/pipelines/github/AztecProtocol/aztec-connect-bridges
+- https://app.circleci.com/pipelines/github/AztecProtocol/barretenberg
 
